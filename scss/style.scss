@@ -5,4 +5,11 @@
 html {
     background-color: rgb(138, 83, 83);
 }
-    
+
+.row {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}

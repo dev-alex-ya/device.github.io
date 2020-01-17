@@ -1,3 +1,14 @@
 header {
     background-color: #ffe27f;
 }
+
+
+.navbar a,
+.navbar button {
+    text-transform: uppercase;
+    color: black;
+}
+
+.navigation {
+    flex-grow: 1;
+}
