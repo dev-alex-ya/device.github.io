@@ -7,8 +7,32 @@ header {
 .navbar button {
     text-transform: uppercase;
     color: black;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    text-decoration: none;
 }
 
 .navigation {
-    flex-grow: 1;
+    flex-basis: 50%;
+
+    a {
+        margin-right: 40px;
+
+        &:nth-child(3) {
+            margin-right: 0;
+            margin-left: auto;
+            justify-self: flex-end;
+        }
+    }
+
+
+}
+
+button {
+    background-color: #ffe27f;
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }

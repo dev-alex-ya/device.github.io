@@ -1,15 +1,26 @@
+@use 'fonts';
 @use 'header';
 @use 'main';
 @use 'footer';
 
 html {
-    background-color: rgb(138, 83, 83);
+    font-size: 15px;
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
 }
 
 .row {
     display: flex;
+    
 }
 
 .space-between {
     justify-content: space-between;
+}
+
+.f-end {
+    justify-content: flex-end !important;
 }
