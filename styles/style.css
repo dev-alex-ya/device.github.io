@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-ExtraBold.eot");
+  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"), url("Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("Gilroy-ExtraBold.woff") format("woff"), url("Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+header {
+  background-color: #ffe27f;
+}
+
+.navbar a,
+.navbar button {
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  font-family: "Gilroy", sans-serif;
+  text-decoration: none;
+}
+
+.navigation {
+  flex-basis: 50%;
+}
+.navigation a {
+  margin-right: 40px;
+}
+.navigation a:nth-child(3) {
+  margin-right: 0;
+  margin-left: auto;
+  justify-self: flex-end;
+}
+
+button {
+  background-color: #ffe27f;
+  font-size: 18px;
+  font-family: "Gilroy", sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+main {
+  background-color: lightgray;
+}
+
+.content {
+  align-items: stretch;
+}
+
+aside {
+  background-color: #efefef;
+  flex-basis: 270px;
+}
+
+.goods {
+  width: 100%;
+}
+.goods ul {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+.goods .figure {
+  margin: 0;
+}
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+html {
+  font-size: 15px;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.f-end {
+  justify-content: flex-end !important;
+}
+
+/*# sourceMappingURL=style.css.map */
