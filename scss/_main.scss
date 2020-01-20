@@ -1,3 +1,30 @@
 main {
     background-color: lightgray;
 }
+
+.content {
+    align-items: stretch;
+
+    
+}
+
+aside {
+    background-color: #efefef;
+    flex-basis: 270px;
+}
+
+.goods {
+    width: 100%;
+    ul {
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        flex-wrap: wrap;
+        flex-grow: 2;
+    }
+
+    .figure {
+        margin: 0;
+    }
+    
+}
