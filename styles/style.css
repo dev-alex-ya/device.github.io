@@ -24,10 +24,9 @@ header {
 .navigation a {
   margin-right: 40px;
 }
-.navigation a:nth-child(3) {
+.navigation a:last-child {
   margin-right: 0;
   margin-left: auto;
-  justify-self: flex-end;
 }
 
 button {
@@ -62,8 +61,8 @@ aside {
   flex-wrap: wrap;
   flex-grow: 2;
 }
-.goods .figure {
-  margin: 0;
+.goods figure {
+  margin: 20px;
 }
 
 footer {
@@ -89,7 +88,7 @@ html {
 }
 
 .f-end {
-  justify-content: flex-end !important;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=style.css.map */
