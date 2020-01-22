@@ -56,10 +56,6 @@ button {
   padding: 0;
 }
 
-main {
-  background-color: lightgray;
-}
-
 .content {
   align-items: stretch;
 }
