@@ -63,6 +63,7 @@ button {
 aside {
   background-color: #efefef;
   flex-basis: 270px;
+  margin-right: 20px;
 }
 
 .goods {
@@ -96,6 +97,7 @@ html {
 
 .row {
   display: flex;
+  margin: 0 -20px;
 }
 
 .space-between {
