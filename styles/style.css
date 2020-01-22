@@ -7,6 +7,25 @@
 }
 header {
   background-color: #ffe27f;
+  font-family: "Gilroy", sans-serif;
+  margin-top: 30px;
+  padding-top: 25px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  position: absolute;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  top: -53px;
+}
+.title:hover {
+  color: #444444;
+}
+.title:active {
+  color: green;
 }
 
 .navbar a,
@@ -14,7 +33,6 @@ header {
   text-transform: uppercase;
   color: black;
   font-size: 18px;
-  font-family: "Gilroy", sans-serif;
   text-decoration: none;
 }
 
@@ -77,6 +95,7 @@ html {
 .container {
   width: 1040px;
   margin: 0 auto;
+  position: relative;
 }
 
 .row {
